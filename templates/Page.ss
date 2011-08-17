@@ -23,10 +23,7 @@
 	<div id="Container">
 		<div id="Header"> 
      
-     	<div id="BlackLoyalistHeader">
-                <a href="/"><img src="themes/blackloyalist/images/BlackLoyalist.png"  alt="Black Loyalist" class="blacloyalistimage" /></a>
-                <h1>Black Loyalist</h1>
-        </div>
+
 	  </div>
 		
 		<div id="Navigation">

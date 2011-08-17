@@ -197,20 +197,14 @@ fieldset {
 ----------------------------------------- */
 
 #Header {
-	background-image:url(../images/header-bg.png);
-		background-color:#001d4d;
+		background-color:white;
+                height: 10px;
 
 
 
-}
-
-#BlackLoyalistHeader {
-	background-image:url(../images/textandieye.png);
-	height: 114px;
-	background-repeat: no-repeat;
-	background-position: right;
 
 }
+
 
 
 
