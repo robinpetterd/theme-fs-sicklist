@@ -30,7 +30,7 @@
 	margin: 10px;
 	padding: 10px;
 	width: 98%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
-}
+}/* a special comment is added here....*/
 
 /* This is the selector for the TabGroup. The TabGroup container houses
  * all of the tab buttons for each tabbed panel in the widget. This container
