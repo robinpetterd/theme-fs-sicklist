@@ -27,6 +27,8 @@
 		<div class="clear"></div>
 	
 	<div id="Container">
+	
+		<div id="ContentContainer">
 		 <!-- starting of side bar-->
 			<% if Menu(2) %>
 				<% include SideBar %>
@@ -35,12 +37,10 @@
 		
 		
 		<!-- checking content with layout bar-->    
-                <div id="Layout">
                   $Layout
-                </div>
 		<!-- end of content place holder-->
          
-           
+         </div>  
 	<div id="Footer">
 		<% include Footer %>
 	</div> <!-- ending of footer -->
