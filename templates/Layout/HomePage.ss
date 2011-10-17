@@ -9,7 +9,6 @@
 
   <li><a href="sources/"><img src="themes/blackloyalist/images/browse-the-sources.png" width="381" height="103" alt="Browse the Sources" /></a></li>
     <li class="SearchForm">$PeopleSearchForm</li>
-
 </ul>
 </div>
 

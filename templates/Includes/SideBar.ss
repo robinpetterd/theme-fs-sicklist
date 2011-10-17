@@ -1,11 +1,5 @@
 <div id="SideBar" >
-  <div id="section-$Level(1).URLSegment" >
- 		<h3>
-			<% control Level(1) %>
-				$Title
-			<% end_control %>
-  		</h3>
-  		
+  <div id="section-$Level(1).URLSegment" >  		
   		<ul id="Menu2">
 		  	<% control Menu(2) %>
   	    		<% if Children %>

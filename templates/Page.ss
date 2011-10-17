@@ -11,46 +11,39 @@
 		<% require themedCSS(layout) %> 
 		<% require themedCSS(typography) %> 
        
-
-
- 
 	</head>
 <body>
 
 
 
 <div id="BgContainer">
-	<div id="Container">
+
 		<div id="Header"> 
-     
-
-	  </div>
+			<h1>$SiteConfig.Title</h1>
+			<div id="Navigation">
+				<% include Navigation %>
+			</div>
+		</div>
+		<div class="clear"></div>
+	
+	<div id="Container">
+		 <!-- starting of side bar-->
+			<% if Menu(2) %>
+				<% include SideBar %>
+			<% end_if %>
+		<!-- ending of side bar-->
 		
-		<div id="Navigation">
-			<% include Navigation %>
-	  	</div>
-	  	
-	<% if Menu(2) %>
-		<% include SideBar %>
-	<% end_if %>
-    
-    			<% if Menu(2) %>
-					<div id="Content">
-				<% end_if %>
-
+		
+		<!-- checking content with layout bar-->    
                 <div id="Layout">
-                    
                   $Layout
                 </div>
-		
-        <% if Menu(2) %>
-                </div>
-         <% end_if %> 
+		<!-- end of content place holder-->
          
            
 	<div id="Footer">
 		<% include Footer %>
-	</div> 
+	</div> <!-- ending of footer -->
     
     	
 	</div>
