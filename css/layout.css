@@ -175,7 +175,7 @@ fieldset {
 
 #Header {
 		width:100%;
-		background:url("../images/tool_bg.png") repeat-x;
+		background:url(../images/tool_bg.png) repeat-x;
         height: 28px;
 }
 
@@ -212,7 +212,6 @@ fieldset {
 }
 
 #Navigation ul {
-		height: 100%;		
 
 	}
 
@@ -220,24 +219,23 @@ fieldset {
 	list-style-type:none;
 	display:block;
 	float:left;
+	margin:0 10px 0 0;
 
 }
   
   #Navigation ul li a {
   	display:block;
   	width:100%;
-  	padding:0 8px 0 8px;
 	text-decoration: none;
 	color:#000;
-	font-size: 1.1em;
-	
+	font-size: 1em;	
 
 
 }
 			#Navigation ul li a:hover {
 					
 					color:#fff;
-					background:url(../images/tool_bg.jpg) bottom center no-repeat;
+					background:url(../images/triangle_hover.png) bottom center no-repeat;
 				}
 		
 				
@@ -246,7 +244,7 @@ fieldset {
     		#Navigation ul li a.section:hover,
 			#Navigation ul li a.current:hover {
 					color:#FFF;
-					background:url(../images/tool_bg.jpg) bottom center no-repeat;
+					background:url(../images/triangle_hover.png) bottom center no-repeat;
 	
 	}
     
@@ -259,7 +257,7 @@ Container
 #ContentContainer
 {
 	width:100%;
-	height:336px;
+	height:345px;
 }
 #Container {
 
@@ -276,6 +274,14 @@ Container
 	margin-left:30px;
 	padding-right:20px;
 	
+}
+
+#Layout h2{
+	color:#0c212b;
+	font-size:190%;
+	width:288px;
+	padding-bottom:10px;
+	border-bottom:#aaaaaa 2px solid;
 }
 
 #Content{
@@ -331,13 +337,15 @@ Container
 	display:block;
 	width:100%;
 	height:100%;
-	padding:5px 0 0px 10px;
+	padding:0px 0 0px 10px;
  	color:#000;
  	font-size:1em; 	
-	
-	
-	
-	
+
+}
+
+#SideBar a span{
+	position:relative;
+	top:4px;
 }
 
  #SideBar  a:hover {
@@ -464,19 +472,24 @@ div.middleColumn input {
 	
 
 #Footer { 
+	margin-left:1px;
 	padding-left:2%;
 	padding-right:2%;
 	padding-top:5px;
-	background-color:#b3babe;
-	min-height:130px;
+	border-top:2px solid #9daaae;
+	background:url(../images/footer.png) no-repeat;
+	min-height:125px;
 	clear:left;
 	
 } 
 
 
  #FooterNavigation {
-	 float:right;
+	 float:left;
 }
+
+#FooterNavigation .bottom{margin-top:15%;}
+#FooterNavigation .bottom span{color:#a24c08;}
 
 
 
