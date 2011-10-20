@@ -16,20 +16,13 @@
 
 
 
-<div id="BgContainer">
 
-
-	
 	<div id="Container">
-		<div id="Header"> 
-			<div id="Logo"></div>
-			<div id="Navigation">
-				<% include Navigation %>
-			</div>
-			<div class="clear"></div><!-- ending of the header-->
-		</div>	
-		
-		
+		<% include Header %>
+
+<div id="BgContainer">
+	
+	<div id="Banner"></div>
 		<div id="ContentContainer">
 		 <!-- starting of side bar-->
 			<% if Menu(2) %>

@@ -58,19 +58,11 @@ height: 0px;
 }
 
 
-html,body { height:100%; }
+html,body { height:100%;}
 
 
 body {
     background: #C6BD9C url('../images/body-bg.jpg') repeat-x 0% 0%;
-    background-image: url(''../images/body-bg.jpg');
-    background-repeat-x: repeat;
-    background-repeat-y: no-repeat;
-    background-attachment: initial;
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-origin: initial;
-    background-clip: initial;
     background-color: #C6BD9C;
     letter-spacing: normal;
     margin: 0px;	
@@ -167,8 +159,9 @@ fieldset {
 ----------------------------------------- */
 #BgContainer {
 		width:980px;
-		min-height:540px;
+		min-height:520px;
 		margin:0 auto;
+		padding-top:20px;
 }
 
 /* end of Bg container*/
@@ -179,11 +172,12 @@ fieldset {
 /* HEADER
 ----------------------------------------- */
 
+#NavigationBg{width:100%; background:url(../images/tool_bg.png) repeat-x; height:28px; z-index:20; position:absolute;}
+
 #Header {
-		width:100%;
-		background:url(../images/navigation_bg.png) repeat-x;
-        height: 28px;
-		padding-bottom:35px;
+	width:980px;
+	height:100%;
+	margin:0 auto;
 }
 
 #Header #Logo {
@@ -208,7 +202,7 @@ fieldset {
 	
 }
 
-#Header #Banner{background-image:url(../images/banner.png);}
+#Banner{background:url(../images/banner.png) no-repeat; width:960px; height:43px; margin:0 auto; margin-top:0; }
 
 
 /*#Header .blacloyalistimage { float:left;}
