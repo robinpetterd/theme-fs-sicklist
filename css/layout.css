@@ -62,18 +62,18 @@ html,body { height:100%; }
 
 
 body {
-background: #C6BD9C url('../images/body-bg.jpg') repeat-x 0% 0%;
-background-image: url(../images/-body-bg.jpg');
-background-repeat-x: repeat;
-background-repeat-y: no-repeat;
-background-attachment: initial;
-background-position-x: 0%;
-background-position-y: 0%;
-background-origin: initial;
-background-clip: initial;
-background-color: #C6BD9C;
-letter-spacing: normal;
-margin: 0px;	
+    background: #C6BD9C url('../images/body-bg.jpg') repeat-x 0% 0%;
+    background-image: url(''../images/body-bg.jpg');
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #C6BD9C;
+    letter-spacing: normal;
+    margin: 0px;	
 }
 
 a {color:#03F};
@@ -166,11 +166,9 @@ fieldset {
 /* BGCONTAINER
 ----------------------------------------- */
 #BgContainer {
-		background-image:url(../images/main_bg.png);
 		width:980px;
 		min-height:540px;
 		margin:0 auto;
-		background-color:#cfc29f;
 }
 
 /* end of Bg container*/
