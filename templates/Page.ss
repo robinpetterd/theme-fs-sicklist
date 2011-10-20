@@ -18,16 +18,18 @@
 
 <div id="BgContainer">
 
+
+	
+	<div id="Container">
 		<div id="Header"> 
-			<h1>$SiteConfig.Title</h1>
+			<div id="Logo"></div>
 			<div id="Navigation">
 				<% include Navigation %>
 			</div>
-		</div>
-		<div class="clear"></div>
-	
-	<div id="Container">
-	
+			<div class="clear"></div><!-- ending of the header-->
+		</div>	
+		
+		
 		<div id="ContentContainer">
 		 <!-- starting of side bar-->
 			<% if Menu(2) %>
@@ -39,13 +41,11 @@
 		<!-- checking content with layout bar-->    
                   $Layout
 		<!-- end of content place holder-->
-         
          </div>  
-	<div id="Footer">
+    
+    <div id="Footer">
 		<% include Footer %>
 	</div> <!-- ending of footer -->
-    
-    	
 	</div>
 
 
