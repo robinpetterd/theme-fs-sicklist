@@ -12,26 +12,25 @@
 		<% require themedCSS(typography) %> 
        
 	</head>
-<body>
+<body class="$MenuTitle.XML">
 
-
-
-
-	<div id="Container">
+<div id="Container">
 		<% include Header %>
-
 <div id="BgContainer">
 	
-	<div id="Banner"></div>
+	<div id="Banner">
+            <div id="left"></div>
+            <div id="right"></div>
+        </div>
+    <div class="clear"></div>
 		<div id="ContentContainer">
 		 <!-- starting of side bar-->
 			<% if Menu(2) %>
 				<% include SideBar %>
 			<% end_if %>
 		<!-- ending of side bar-->
-		
-		
-		<!-- checking content with layout bar-->    
+                
+                <!-- checking content with layout bar-->    
                   $Layout
 		<!-- end of content place holder-->
          </div>  
