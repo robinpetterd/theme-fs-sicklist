@@ -593,7 +593,7 @@ div.middleColumn input {
 	width:100%;
 	margin:0 auto;
 	background:url(../images/footer.png);
-	min-height:128px;
+	min-height:135px;
 	overflow:hidden;
 	clear:left;
 	
@@ -1474,13 +1474,26 @@ li.InformationSummary span.Details {
 
 	margin-top:8px;
 } 
+
+
+
  
+#SickEntry #sourceIcon {
+    width:90px;
+    float:left;
+    padding:15px;
+}
+
+#SickEntry #Details {
+    clear: left;    
+}
 #SickEntry dl {
     background: #EEE;
     float: left;
+    clear: left;
     margin: 0px 0px 0px 124px;
-    margin-left: 124px;
-    margin-left: 124px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     padding: 0px;
     width: 80%;
 }
@@ -1523,4 +1536,41 @@ padding: 0.5em;
     margin-left: auto;
     margin-right: auto;
     
+}
+
+/* ---- the about pages --- */ 
+
+
+#InformationPage #SideBar   {
+    background-color: red;
+    display: none;
+} 
+
+/* --- stuff the controls the width of the pages **//
+
+#InformationPage #Content,#HomePage #Content
+{
+     background-color: red;
+     width:80%;
+     margin-left: 6%;
+
+} 
+
+#InformationPage #Content
+{
+     width:80%;
+     margin-left: 6%;
+} 
+
+
+#SickEntry 
+{
+    margin-left: 5%;
+    width:940px;
+} 
+
+#player_wrapper  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
 }

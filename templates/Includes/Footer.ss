@@ -2,11 +2,8 @@
 <div id="footerContainer">
 
 	<div id="FooterAbout">
-		<div class="Title">$Title<p>
-		<% control Page(home) %>
-		  	$Content.FirstSentence
-		<% end_control %>
-	 </div>
+                        $SiteConfig.Footer
+	</div>
 	 
  <!-- logo is here...-->
  
@@ -22,7 +19,7 @@
 				<% end_control %>
 			</ul>
 	</div>
-	<div id="Copyright">Unless otherwised stated &copy; Copyright $Now.Year University of Tasmania. <a href="contact-us/">Contact</a>.</div>
+	<div id="Copyright">Unless otherwised stated &copy; Copyright2011 - $Now.Year University of Tasmania. <a href="contact-us/">Contact</a>.</div>
 		<div id="DesignCredits">Site designed and developed by <a href="http://www.sproutlabs.com.au">Sprout Labs</a>.</div>
 
 	</div><!-- ending of bottom-->

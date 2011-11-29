@@ -12,7 +12,7 @@
 		<% require themedCSS(typography) %> 
        
 	</head>
-<body class="$MenuTitle.XML">
+<body class="$MenuTitle.XML " id="$ClassName">
 
 <div id="Container">
 		<% include Header %>
@@ -22,22 +22,22 @@
             <div id="left"></div>
             <div id="right"></div>
         </div>
-    <div class="clear"></div>
+            <div class="clear"></div>
 		<div id="ContentContainer">
 		 <!-- starting of side bar-->
 			<% if Menu(2) %>
 				<% include SideBar %>
 			<% end_if %>
 		<!-- ending of side bar-->
-                
-                <!-- checking content with layout bar-->    
-                  $Layout
+                <!-- cdfhecking content with layout bar-->    
+                <div id="Content">$Layout </div>  
 		<!-- end of content place holder-->
-         </div>  
+             </div>  
     
-    <div id="Footer">
-		<% include Footer %>
-	</div> <!-- ending of footer -->
+        <div id="Footer">
+                    <% include Footer %>
+        </div> 
+            <!-- ending of footer -->
 	</div>
 
 
